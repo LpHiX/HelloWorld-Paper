@@ -1,0 +1,25 @@
+name: HelloWorld
+version: '${project.version}'
+main: me.lphix.helloworld.HelloWorld
+api-version: 1.18
+authors: [ LpHiX ]
+description: going back to coding!
+commands:
+  gmc:
+    description: Shortcut for gamemode
+    usage: /<command>
+  gms:
+    description: survival
+    usage: /<command>
+  god:
+    description: Godmode
+    usage: /<command>
+  heal:
+    description: Healing
+    usage: /<command>
+  fly:
+    description: Fly
+    usage: /<command>
+  speed:
+    description: While walking, sets walking speed. While flying, sets flying speed.
+    usage: /<command>
